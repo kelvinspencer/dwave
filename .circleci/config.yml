@@ -22,7 +22,7 @@ workflows:
                 - main
     jobs:
       - dwave/test-linux:
-          integration-tests: "canary"
+          integration-tests: "skip"
       - dwave/test-osx:
           integration-tests: "skip"
       - dwave/test-win:
